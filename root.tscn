@@ -7,8 +7,16 @@
 [node name="player" parent="." instance=ExtResource("1_5jeim")]
 position = Vector2(436, 174)
 
-[node name="Polygon2D" type="Polygon2D" parent="."]
-polygon = PackedVector2Array(29, 348, 918, 343, 928, 427, 536, 409, 235, 450, 49, 412)
+[node name="Label" type="Label" parent="."]
+offset_left = 13.0
+offset_top = 11.0
+offset_right = 167.0
+offset_bottom = 37.0
+text = "Press LEFT or RIGHT"
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Polygon2D"]
-polygon = PackedVector2Array(29, 348, 916, 343, 928, 428, 539, 408, 234, 450, 23, 409)
+[node name="Label2" type="Label" parent="."]
+offset_left = 13.0
+offset_top = 43.0
+offset_right = 53.0
+offset_bottom = 66.0
+text = "Press SPACEBAR"
